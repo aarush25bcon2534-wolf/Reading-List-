@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { Library, BookOpen, BookMarked, CheckCircle2 } from 'lucide-react';
+import { Library, BookOpen, BookMarked, CircleCheck as CheckCircle2 } from 'lucide-react';
 import { useReadingList } from '@/useReadingList';
 import { AddBookForm } from '@/components/AddBookForm';
 import { FilterTabs, type Filter } from '@/components/FilterTabs';
